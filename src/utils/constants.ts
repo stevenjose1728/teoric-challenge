@@ -3,6 +3,6 @@ const constants: ArkusNexus = {
     areas: ['RRHH', 'Development', 'Sales', 'IT Support'],
     places: ['Tijuana', 'MTY', 'Aguas Calientes'],
     frontendTechs: ['React', 'React Native', 'VueJS'],
-    backendTechs: ['Python', 'NodeJS']
+    backendTechs: ['Python', 'NodeJS', 'Java']
 }
 export default constants
