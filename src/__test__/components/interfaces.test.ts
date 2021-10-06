@@ -11,4 +11,8 @@ describe('Arkus MTY', () => {
     test('How many employees have this place?', () => {
         expect(arkusMty.getEmployees()).toMatch(params.employesCount.toString())
     })
+
+    test('Can this company works with Java?', () => {
+        expect(arkusMty.backendTechs).not.toContain('Java')
+    })
 })
